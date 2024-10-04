@@ -1,0 +1,39 @@
+CREATE TABLE Horario_Escolar (
+    dia_da_semana TEXT NOT NULL,
+    horario TIME NOT NULL,
+    disciplina TEXT NOT NULL,
+    professor TEXT NOT NULL
+);
+
+INSERT INTO Horario_Escolar (dia_da_semana,horario,disciplina,professor)
+VALUES 
+('segunda','07:30:00','biologia','michele'),
+('segunda','08:20:00','sociologia','itamar'),
+('segunda','09:10:00','projeto de vida','amauri'),
+('segunda','10:00:00','analese e projeto de sistemas','ian'),
+('segunda','11:10:00','analese e projeto de sistemas','ian'),
+('segunda','12:00:00','sociologia','itamar'),
+('terça','07:30:00','matematica','marcel'),
+('terça','08:20:00','portugues','marcia'),
+('terça','09:10:00','programacao front end','gabriel'),
+('terça','10:00:00','historia','michel'),
+('terça','11:10:00','ciencias da computação','gabriel'),
+('terça','12:00:00','portugues','marcia'),
+('quarta','07:30:00','matematica','marcel'),
+('quarta','08:20:00','portugues','marcia'),
+('quarta','09:10:00','programação front end','gabriel'),
+('quarta','10:00:00','programação front end','gabriel'),
+('quarta','11:10:00','educaçao financeira','kellin'),
+('quarta','12:00:00','banco de dados','gabriel'),
+('quinta','07:30:00','quimica','aline'),
+('quinta','08:20:00','ingles','deise'),
+('quinta','09:10:00','quimica','aline'),
+('quinta','10:00:00','geografia','adelio'),
+('quinta','11:10:00','programacao front end','gabriel'),
+('quinta','12:00:00','geografia','adelio'),
+('sexta','07:30:00','programacao mobile','luciano'),
+('sexta','08:20:00','banco de dados','gabriel'),
+('sexta','09:10:00','matematica','marcel'),
+('sexta','10:00:00','biologia','michele'),
+('sexta','11:10:00','programacao mobile','luciano'),
+('sexta','12:00:00','ciencias da computacao','gabriel');
